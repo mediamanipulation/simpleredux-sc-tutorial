@@ -4,7 +4,7 @@ const initialState = {
     users: []
 };
 
-const userReducer = (state = initialState, action) => {
+const getUserReducer = (state = initialState, action) => {
     switch (action.type) {
         case GET_USERS_SUCCESS:
             return {
@@ -16,4 +16,4 @@ const userReducer = (state = initialState, action) => {
     }
 };
 
-export default userReducer;
+export default getUserReducer;
