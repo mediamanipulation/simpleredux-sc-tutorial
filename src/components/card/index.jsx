@@ -9,16 +9,18 @@ function Cards() {
   const users = useSelector(state => state.users || []);
 
   return (
-    <div className="App">
-      <header className="App-header">
-        <div className="users-container">
-          {users.map(user => <UserCard key={user.id} user={user} />)}
-        </div>
-        <div className="btnStl">
-          <button onClick={() => dispatch(getUsersFetch())}>Get users</button>
-        </div>
-      </header>
-    </div>
+    <>
+    <div className="users-title-container"> <p className='userTitle'><h1>Users</h1></p></div>
+    
+      <div className="users-container">
+        {users.map(user => <UserCard key={user.id} user={user} />)}
+      </div>
+      <div className="btnStl">
+        <button onClick={() => dispatch(getUsersFetch())}>Get users</button>
+      </div>
+    </>
+
+
   );
 }
 
