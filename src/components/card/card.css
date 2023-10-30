@@ -1,0 +1,97 @@
+
+/* App Styles */
+.App {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 20px;
+    height: 100vh;
+    width: 100vw;
+    background-color: #f4f4f4;
+  }
+  
+  .App-header {
+    width: 90%;
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+  }
+  
+  /* Custom Button Styles */
+  .btnStl {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 8px 16px;
+    font-size: 16px;
+    margin-bottom: 20px;
+    cursor: pointer;
+    background-color: #007bff;
+    color: #0c0c0c;
+    border: none;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+  }
+  
+  /* User Card Styles */
+  .users-grid, .users-container {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: center;
+  }
+  
+  .user-card {
+    width: 300px;
+    border: 1px solid #e1e1e1;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+    margin: 20px 0;
+    transition: transform 0.2s;
+  }
+  
+  .user-card:hover {
+    transform: scale(1.02);
+  }
+  
+  .user-card h2 {
+    margin-top: 0;
+    font-size: 1.5em;
+    border-bottom: 2px solid #007bff;
+    padding-bottom: 5px;
+    margin-bottom: 10px;
+  }
+  
+  .user-card h4 {
+    font-size: 1.2em;
+    margin-top: 20px;
+  }
+  
+  .address, .company, .address-section, .company-section {
+    margin-top: 15px;
+  }
+  
+  /* Responsive Media Queries */
+  @media (max-width: 600px) {
+    .users-grid {
+      justify-content: center;
+    }
+    body, html {
+      padding-top: 160px;
+    }
+    .App {
+      padding: 0px;
+    }
+  } 
+  
+  @media (min-width: 600px) {
+    .users-grid {
+      justify-content: flex-start;
+    }
+  }
+  
