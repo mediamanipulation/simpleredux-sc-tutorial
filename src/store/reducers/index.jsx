@@ -7,10 +7,3 @@ const rootReducer = combineReducers({
 
 export default rootReducer;
 
-// import { combineReducers } from '@reduxjs/toolkit';
-// import myFirstReducer from './someReducer';
-
-// export default combineReducers({
-//   myFirst: myFirstReducer,
-//   // ... other reducers
-// });
