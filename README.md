@@ -12,5 +12,5 @@ Inspiration, code snippets, etc.
 
 https://www.youtube.com/watch?v=eA6rskkE9y8&t=72s 
 YouTube Video Tutorial - 
-This video tutorial was used as a guide to set up and implement Redux-Saga in a React application.
-and peer programming with ChatGPT 
+This video tutorial was used as a guide to set up and implement Redux-Saga in a React application
+peer programming with ChatGPT and Copilot
