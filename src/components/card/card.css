@@ -9,7 +9,7 @@
     font-size: 16px;
     margin-bottom: 20px;
     cursor: pointer;
-    background-color: #007bff;
+    background-color: #ffffff;
     color: #0c0c0c;
     border: none;
     border-radius: 5px;
@@ -59,13 +59,13 @@
    .users-title-container {
     display: flex;
     flex-wrap: wrap;
-    padding-top: 500px;
+
     gap: 20px;
     justify-content: center;
   }
   .userTitle{
     font-size: 1.2em;
-    margin-top: 20px;
+   
    
   }
   

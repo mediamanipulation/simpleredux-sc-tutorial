@@ -17,6 +17,6 @@ function* fetchUsers() {
     }
 }
 
-export default function* someSaga() {
+export default function* fectUsersSaga() {
     yield takeEvery(GET_USERS_FETCH, fetchUsers);
 }

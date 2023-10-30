@@ -10,7 +10,7 @@ function Cards() {
 
   return (
     <>
-    <div className="users-title-container"> <p className='userTitle'><h1>Users</h1></p></div>
+    <div className="users-title-container"> <span className='userTitle'><h1>Users</h1></span></div>
     
       <div className="users-container">
         {users.map(user => <UserCard key={user.id} user={user} />)}
