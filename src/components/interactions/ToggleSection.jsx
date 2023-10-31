@@ -1,15 +1,24 @@
-// ToggleSection.jsx
-import React, { useState } from 'react';
+import React from 'react';
 
-const ToggleSection = ({ title, children }) => {
-  const [isVisible, setIsVisible] = useState(false);
+function ToggleSection({ title, children }) {
+    const toggleSectionContent = (event) => {
+        const content = event.target.nextElementSibling;
 
-  return (
-    <div className={`${title.toLowerCase()}-section`}>
-      <h4 onClick={() => setIsVisible(!isVisible)}>{title}</h4>
-      {isVisible && children}
-    </div>
-  );
+        if (content.style.maxHeight) {
+            content.style.maxHeight = null;
+        } else {
+            content.style.maxHeight = content.scrollHeight + "px";
+        }
+    };
+
+    return (
+        <>
+            <h4 onClick={toggleSectionContent}>{title}</h4>
+            <div className="toggle-section-content">
+                {children}
+            </div>
+        </>
+    );
 }
 
 export default ToggleSection;

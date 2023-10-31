@@ -2,6 +2,7 @@ import React from 'react';
 import { useDispatch, useSelector } from 'react-redux';
 import { getUsersFetch } from '../../store/actions/index';
 import UserCard from './UserCard';
+import '../interactions/toggle-section.css'
 import './card.css';
 
 function Cards() {
