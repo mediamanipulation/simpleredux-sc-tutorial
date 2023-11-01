@@ -35,7 +35,7 @@ li {
 }
 
 li ul {
-  padding-left: 20px;
+  padding-left: 10px;
 }
 
 a {
@@ -53,7 +53,7 @@ button {
   margin-bottom: 20px;
   cursor: pointer;
   background-color: #007bff;
-  color: #0c0c0c;
+  color: #ffffff;
   border: none;
   border-radius: 5px;
   transition: background-color 0.3s ease;
@@ -77,14 +77,14 @@ button:hover {
     align-items: center;
     justify-content: center;
 
-    background-color: #f4f4f4;
+    background-color: #ffffff;
   }
   button {
 
     font-size: 16px;
     cursor: pointer;
     background-color: #007bff;
-    color: #0c0c0c;
+    color: #ffffff;
     border: none;
     border-radius: 5px;
     transition: background-color 0.3s ease;

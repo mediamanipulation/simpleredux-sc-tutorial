@@ -14,7 +14,7 @@ function ToggleSection({ title, children }) {
     return (
         <>
             <h4 onClick={toggleSectionContent}>{title}</h4>
-            <div className="toggle-section-content">
+            <div className="toggle-section-content txUl">
                 {children}
             </div>
         </>

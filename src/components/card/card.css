@@ -3,12 +3,11 @@
   display: flex;
   align-items: center;
   justify-content: center;
-  padding: 8px 16px;
+  padding: 8px 8px;
   font-size: 16px;
-  margin-bottom: 20px;
   cursor: pointer;
-  background-color: #ffffff;
-  color: #0c0c0c;
+
+  color: #fffdfd;
   border: none;
   border-radius: 5px;
   transition: background-color 0.3s ease;
@@ -16,33 +15,33 @@
 
 h2 {
   color: #ffffff;
-  background-color: rgb(43, 157, 228);
+  background-color: rgb(127, 127, 128);
   padding: 10px;
 }
 
 h4{
   color: #ffffff;
-  background-color: rgb(43, 157, 228);
-  padding: 10px;
-  border-radius: 8px;
+  background-color: rgb(110, 173, 236);
+  padding:5px;
+  border-radius: 4px;
 }
 
 /* User Card Styles */
 .users-grid, .users-container {
   display: flex;
   flex-wrap: wrap;
-  gap: 20px;
+  gap: 10px;
   justify-content: center;
 }
 
 .user-card {
   width: 300px;
-  border: 1px solid #e1e1e1;
+  border: 1px solid #555555;
   padding: 20px;
-  background-color: #fff;
-  border-radius: 8px;
+  background-color: #e9e9e9;
+  border-radius: 12px;
   box-shadow: 0 4px 8px rgba(0,0,0,0.1);
-  margin: 20px 0;
+  margin: 10px 0;
   transition: transform 0.2s;
 }
 
@@ -53,30 +52,44 @@ h4{
 .user-card h2 {
   margin-top: 0;
   font-size: 1.5em;
-  border-bottom: 2px solid #007bff;
-  padding-bottom: 5px;
-  margin-bottom: 10px;
+
 }
 
 .user-card h4 {
   font-size: 1.2em;
-  margin-top: 20px;
+  margin-top: 5px;
+
 }
 
+.user-section {
+  margin-top: 1px;
+  background: rgb(214, 214, 214);
+  border-radius: 8px;
+  color: #030303;
+  padding: 5px;
+  text-decoration: underline;
+
+}
 .address, .address-section {
-  margin-top: 15px;
+  margin-top: 1px;
   background: rgb(112, 112, 112);
   border-radius: 8px;
   color: #fff;
-  padding: 15px;
+  padding: 5px;
+}
+
+.txUl {
+  text-decoration: underline;
+  text-shadow: #555555;
+
 }
 
 .company, .company-section {
-  margin-top: 15px;
-  background: #000;
+  margin-top: 5px;
+  background: #3c6d8a;
   border-radius: 5px;
   color: #fff;
-  padding: 15px;
+  padding: 5px;
 }
 
 .users-title-container {
@@ -101,3 +114,11 @@ h4{
     justify-content: flex-start;
   }
 }
+
+.user-card .address-section, .user-card .company-section {
+  margin: 1px;
+  /* Add other styles if necessary, like border, padding, etc. */
+}
+
+
+ 
