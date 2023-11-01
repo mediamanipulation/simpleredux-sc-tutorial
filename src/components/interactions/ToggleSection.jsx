@@ -13,7 +13,7 @@ function ToggleSection({ title, children }) {
 
     return (
         <>
-            <h4 onClick={toggleSectionContent}>{title}</h4>
+            <h4 onClick={toggleSectionContent} className="txUl">{title}</h4>
             <div className="toggle-section-content txUl">
                 {children}
             </div>

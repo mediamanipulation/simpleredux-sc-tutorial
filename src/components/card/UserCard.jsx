@@ -12,7 +12,7 @@ function UserCard({ user }) {
               <p><strong>Phone:</strong> {user.phone}</p>
               <p><strong>Website:</strong> {user.website}</p>
             </div>
-            <ToggleSection title="Address">
+            <ToggleSection title="Address" >
               <div className="address-section">
                 <p>{user.address.street}, {user.address.suite}</p>
                 <p>{user.address.city}, {user.address.zipcode}</p>

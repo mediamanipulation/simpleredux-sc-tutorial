@@ -67,7 +67,8 @@ h4{
   border-radius: 8px;
   color: #030303;
   padding: 5px;
-  text-decoration: underline;
+
+  
 
 }
 .address, .address-section {
@@ -79,8 +80,9 @@ h4{
 }
 
 .txUl {
-  text-decoration: underline;
+
   text-shadow: #555555;
+  text-decoration: underline;
 
 }
 
