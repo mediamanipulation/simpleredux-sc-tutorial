@@ -19,3 +19,27 @@ export const getUsersSuccess = (users) => {
         payload: users
     };
 };
+
+//---------------------------------------------------------------------------------------
+
+// import { createSlice } from '@reduxjs/toolkit';
+
+// const usersSlice = createSlice({
+//   name: 'users',
+//   initialState: {
+//     data: [],
+//     loading: false,
+//   },
+//   reducers: {
+//     getUsersFetch: (state) => {
+//       state.loading = true;
+//     },
+//     getUsersSuccess: (state, action) => {
+//       state.data = action.payload;
+//       state.loading = false;
+//     },
+//   },
+// });
+
+// export const { getUsersFetch, getUsersSuccess } = usersSlice.actions;
+// export default usersSlice.reducer;
