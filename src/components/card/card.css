@@ -82,7 +82,8 @@ h4{
 .txUl {
 
   text-shadow: #555555;
-  text-decoration: underline;
+  /* text-decoration: underline; */
+  cursor: pointer;
 
 }
 
