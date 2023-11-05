@@ -16,8 +16,9 @@ function App() {
   return (
     <div className="App">
       <header className="App-header">
-      <Cards />
       <UserList users={users} />
+      <Cards />
+    
       </header>
     </div>
   );
