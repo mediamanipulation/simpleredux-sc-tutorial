@@ -1,16 +1,23 @@
-import React from 'react';
+// Path: src/App.js
+import React, { useEffect } from 'react';
 import { useDispatch, useSelector } from 'react-redux';
-import Cards from './components/card/index.jsx';
-import './App.css';
+import { getUsersFetch } from './features/users/usersSlice';
+import Cards from './features/components/card/index.jsx';
+import UserList from './features/components/UserList';
 
 function App() {
   const dispatch = useDispatch();
-  const users = useSelector(state => state.users || []);
+  const users = useSelector(state => state.users.users);
+
+  useEffect(() => {
+    dispatch(getUsersFetch());
+  }, [dispatch]);
 
   return (
     <div className="App">
       <header className="App-header">
       <Cards />
+      <UserList users={users} />
       </header>
     </div>
   );
@@ -18,3 +25,5 @@ function App() {
 
 
 export default App;
+
+

@@ -1,14 +1,19 @@
 import React from 'react';
 import { useDispatch, useSelector } from 'react-redux';
-import { getUsersFetch } from '../../store/actions/index';
+import {
+  getUsersFetch
+} from '../../users/usersSlice';
 import UserCard from './UserCard';
 import '../interactions/toggle-section.css'
 import './card.css';
 
+const selectAllUsers = state => state.users.users;
+
 function Cards() {
 
   const dispatch = useDispatch();
-  const users = useSelector(state => state.users || []);
+  // const users = useSelector(state => state.users || []);
+  const users = useSelector(selectAllUsers);
 
   return (
     <>
