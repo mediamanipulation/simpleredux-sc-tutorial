@@ -27,9 +27,9 @@ function Cards() {
       <div className="users-container">
         {users.map(user => <UserCard key={user.id} user={user} />)}
       </div>
-      <div className="btnStl">
+      {/* <div className="btnStl">
         <button onClick={() => dispatch(getUsersFetch())}>Get users</button>
-      </div>
+      </div> */}
     </>
   );
 }

@@ -1,0 +1,70 @@
+.eslintrc.cjs
+.gitignore
+generateFileTree.cjs
+index.html
+package-lock.json
+package.json
+public/
+public\vite.svg
+README.md
+src/
+src\app/
+src\app\store.jsx
+src\App.css
+src\App.jsx
+src\assets/
+src\assets\react.svg
+src\features/
+src\features\components/
+src\features\components\card/
+src\features\components\card\card.css
+src\features\components\card\index.jsx
+src\features\components\card\UserCard.jsx
+src\features\components\interactions/
+src\features\components\interactions\toggle-section.css
+src\features\components\interactions\ToggleSection.jsx
+src\features\components\UserList.jsx
+src\features\users/
+src\features\users\usersSaga.jsx
+src\features\users\usersSelectors.jsx
+src\features\users\usersSlice.jsx
+src\index.css
+src\main.jsx
+vite.config.js
+--------------------------------------------------------
+.eslintrc.cjs
+.gitignore
+generateFileTree.cjs
+index.html
+package-lock.json
+package.json
+public/
+  vite.svg
+README.md
+src/
+  app/
+    store.jsx
+  App.css
+  App.jsx
+  assets/
+    react.svg
+  features/
+    components/
+      card/
+        card.css
+        index.jsx
+        UserCard.jsx
+      interactions/
+        toggle-section.css
+        ToggleSection.jsx
+      user-form/
+        UserForm.jsx         // New form component for creating and editing users
+        user-form.css
+    users/
+      usersAPI.js           // New file for API calls
+      usersSaga.jsx
+      usersSelectors.jsx
+      usersSlice.jsx
+  index.css
+  main.jsx
+vite.config.js
